@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="">
+    <header>
+        <h1>welcome to my DOM</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo temporibus voluptate vitae laboriosam voluptatem ea blanditiis veritatis, laborum nostrum ut doloribus ratione exercitationem non voluptatum, magni eius commodi sed modi deserunt doloremque! Illo voluptate repudiandae, atque qui, ad debitis dicta cumque quas saepe quidem odit ipsa eum alias. Quisquam, exercitationem!</p>
+    </header>
+    <main id="main">
+        <h1>my awesome DOM de baba</h1>
+        <ul>
+            <li>jalali set</li>
+            <li>Safayet</li>
+            <li>Bonobash</li>
+        </ul>
+        <section id="mobile">
+            <h1>Top mobile brand</h1>
+            <ul>
+                <li>apple</li>
+                <li>xaomi</li>
+                <li>realme</li>
+            </ul>
+        </section>
+        <section id="places-container">
+            <h1 id="fruits-id"> fruits  i like..</h1>
+            <ul>
+                <li class="important-places">sundorbon</li>
+                <li class="important-places">bandorbon</li>
+                <li class="important-places">katabon</li>
+            </ul>
+        </section>
+        <section id="food">
+            <ul>
+                <li>Apple</li>
+                <li>Apple</li>
+                <li>Apple</li>
+                <li>Apple</li>
+            </ul>
+        </section>
+
+    </main>
+    <script src="./append.js"></script>
+    <script src="./JS/script.js"></script>
+    <script>
+        // console.log('inside javascrpit adding');
+        const liCollection = document.getElementsByTagName('li')
+        // console.log(liCollection);
+        for ( const tag of liCollection){
+            // console.log(tag.innerText);
+        }
+        const h1Colection = document.getElementsByTagName('h1');
+        for( const h1 of h1Colection){
+            // console.log(h1.innerText);
+        }
+        const change = document.getElementById('fruits-id');
+        // console.log(change);
+
+    </script>
+    <script src="./JS/style.js"></script>
+</body>
+</html>

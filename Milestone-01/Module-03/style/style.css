@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Space+Grotesk:wght@300..700&display=swap");
+
+*{
+    margin: 0;
+}
+.heading{
+    background-image:url(../asset/viciadoemcodar.gif);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-color: rgb(141, 20, 211);
+    height: 600px;
+    padding: 100px 0;
+    max-width: 1800px;
+    align-items: center;
+    background-position: center;
+    margin:50px auto;
+    padding: 100px 0;
+}
+/* .font{
+    background-color: aqua;
+    height: 300px;
+
+} */
+h1{
+    color: rgb(255, 255, 255);
+    /* font-style: italic; */
+    /* font-weight: ; */
+    font-family: "Space Grotesk", sans-serif;
+    text-decoration: none;
+    font-size: 80px;
+    text-align: center;
+    /* text-decoration: overline; */
+}
+.btn-box{
+    text-align: center;
+    margin: 60px;
+}
+.btn{
+    background-color: rgb(56, 11, 80);
+    color: white;
+    padding: 20px;
+    width: 150px;
+    font-size: 23px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: "Gamja Flower", sans-serif;
+    border: 1px solid rgb(99, 9, 103);
+    box-shadow: 10px 20px 30px rgb(245, 28, 227);
+
+}

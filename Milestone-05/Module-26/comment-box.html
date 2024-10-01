@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New add Commment </title>
+</head>
+<body>
+    <h1>Places add your comment</h1>
+    <div id="comment-container">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, quam!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, quam!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, quam!</p>
+    </div>
+    <div>
+        <textarea name="" id="new-comment"></textarea><br>
+        <button id="postBtn">Post</button>
+    </div>
+    <script>
+        //step-1: add event listener to the post button...
+        document.getElementById('postBtn').addEventListener('click' ,function(){
+            //step-2: get the comment...
+            const comment = document.getElementById('new-comment');
+            const textComment = comment.value;
+
+            // step-3: set the comment inside the comment container
+            //1-get the comment conatiner
+            //2-create a new element (p tag)
+            //3-set the text of the comment as innertext of the p tag ..
+            //add the p tag usgin appendChild
+            const comentContainer = document.getElementById('comment-container');
+            const p = document.createElement('p')
+            p.innerText = textComment;
+            comentContainer.appendChild(p);
+            //step-4: clear the text area
+            comment.value = '';
+        })
+    </script>
+</body>
+</html>

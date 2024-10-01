@@ -1,0 +1,12 @@
+header > h1 {
+    color: red;
+}
+#fruits-id{
+    color: lime;
+}
+.important-places{
+    color: purple;
+}
+  .red-bg{
+    background-color: lightcoral !important;
+}

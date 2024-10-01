@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#hero{
+    height:919px;
+    background-image: url("../assets/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-box{
+    width: 1023px;
+    height: 393px;
+    left: 448px;
+    right: 449px;
+    top: 264px;
+    bottom: 262px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.subtext{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    opacity: 0.8;
+    margin: 16px;
+}
+.headtext{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center; 
+    margin: 16px;
+}
+.drescription{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 32px;
+}
+.btn{
+    padding: 21px 32px 21px 32px;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 20px;
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    border: none;
+    cursor: pointer;
+}
+#card-box{
+    width: 1320px;
+    margin:167px auto;
+}
+.title{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.sub-text{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6; 
+}
+.card-container{
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Work Sans;
+}
+.card{
+    max-width: 424px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+
+}
+.card.image img{
+    width:100%;
+}
+.card .menu{
+    background-color: rgba(82, 195, 3, 0.15);
+    padding: 14px 32px 14px 32px;
+    border-radius: 8px;
+
+background: rgba(82, 195, 3, 0.15);
+}

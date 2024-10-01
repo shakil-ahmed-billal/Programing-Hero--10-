@@ -1,0 +1,25 @@
+h3{
+    font-size: 30px ;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.blog{
+    margin: 40px;
+    border: 10px solid tomato;
+    box-shadow: 10px 10px 20px blueviolet;
+    padding: 30px;
+    border-radius: 20px;
+    
+}
+.insiden{
+    border: 2px solid purple;
+    margin: 20px;
+    display: inline-block;
+}
+.header{
+    height: 300px;
+    color: white;
+    background-image: url(../image/burger-with-melted-cheese.webp);
+    background-size: cover;
+       
+}
