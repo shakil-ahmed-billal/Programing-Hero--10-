@@ -1,11 +1,11 @@
 import './App.css'
-import Table from './Table'
+import Friends from './Friends'
 
 function App() {
 
   return (
     <>
-      <Table></Table>
+      <Friends></Friends>
     </>
   )
 }
