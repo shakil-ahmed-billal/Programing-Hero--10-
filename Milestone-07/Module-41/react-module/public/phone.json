@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "brand": "Apple",
+        "model": "iPhone 13",
+        "price": 799,
+        "features": ["5G", "Dual Camera", "Face ID"]
+    },
+    {
+        "id": 2,
+        "brand": "Samsung",
+        "model": "Galaxy S21",
+        "price": 749,
+        "features": ["5G", "Triple Camera", "Fingerprint Sensor"]
+    },
+    {
+        "id": 3,
+        "brand": "Google",
+        "model": "Pixel 6",
+        "price": 699,
+        "features": ["5G", "Dual Camera", "Google Assistant"]
+    },
+    {
+        "id": 4,
+        "brand": "OnePlus",
+        "model": "9 Pro",
+        "price": 969,
+        "features": ["5G", "Quad Camera", "120Hz Display"]
+    },
+    {
+        "id": 5,
+        "brand": "Xiaomi",
+        "model": "Mi 11",
+        "price": 749,
+        "features": ["5G", "108MP Camera", "Fast Charging"]
+    }
+]
