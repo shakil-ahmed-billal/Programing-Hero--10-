@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "coverPic": "https://images.unsplash.com/photo-1509021436665-8f07dbf5bf1d",
+        "title": "Discovering the New Trends in Tech",
+        "authorImage": "https://randomuser.me/api/portraits/men/1.jpg",
+        "postedDate": "2024-10-01",
+        "readingTime": 5,
+        "hashtags": ["#TechTrends", "#Innovation"]
+    },
+    {
+        "id": 2,
+        "coverPic": "https://images.unsplash.com/photo-1517190376783-720b5e7e29c4",
+        "title": "Exploring the Wonders of Space",
+        "authorImage": "https://randomuser.me/api/portraits/men/2.jpg",
+        "postedDate": "2024-10-15",
+        "readingTime": 8,
+        "hashtags": ["#SpaceExploration", "#Astronomy"]
+    },
+    {
+        "id": 3,
+        "coverPic": "https://images.unsplash.com/photo-1518733057094-95b5315e5ca2",
+        "title": "A Guide to Healthy Eating",
+        "authorImage": "https://randomuser.me/api/portraits/women/3.jpg",
+        "postedDate": "2024-10-20",
+        "readingTime": 7,
+        "hashtags": ["#HealthyEating", "#Nutrition"]
+    },
+    {
+        "id": 4,
+        "coverPic": "https://images.unsplash.com/photo-1603791440384-56cd371ee9a7",
+        "title": "The Future of Renewable Energy",
+        "authorImage": "https://randomuser.me/api/portraits/men/4.jpg",
+        "postedDate": "2024-10-23",
+        "readingTime": 6,
+        "hashtags": ["#RenewableEnergy", "#Sustainability"]
+    },
+    {
+        "id": 5,
+        "coverPic": "https://images.unsplash.com/photo-1519608487953-e999c86e7455",
+        "title": "Top Travel Destinations for 2025",
+        "authorImage": "https://randomuser.me/api/portraits/women/5.jpg",
+        "postedDate": "2024-10-28",
+        "readingTime": 10,
+        "hashtags": ["#Travel2025", "#Wanderlust"]
+    }
+]
