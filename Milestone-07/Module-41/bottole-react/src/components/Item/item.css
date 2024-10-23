@@ -1,0 +1,11 @@
+.item{
+    border: 2px solid green;
+    border-radius: 20px;
+}
+.item> img{ 
+    width: 100%;
+}
+.item button{
+    color: white;
+    margin-bottom: 10px;
+}

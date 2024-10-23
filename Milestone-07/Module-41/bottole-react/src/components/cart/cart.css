@@ -1,0 +1,14 @@
+.cart{
+    display: grid;
+    gap: 20px;
+    border: 2px solid green;
+    border-radius: 20px;
+    grid-template-columns: repeat(6,1fr);
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.cart img{
+    width: 100%;
+    border: 2px solid salmon ;
+    border-radius: 15px;
+}
