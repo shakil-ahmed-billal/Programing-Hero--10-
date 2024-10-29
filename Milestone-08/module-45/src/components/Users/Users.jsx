@@ -10,7 +10,6 @@ const Users = () => {
      */
 
     const users = useLoaderData();
-    console.log(users);
 
   return (
     <div>
