@@ -40,6 +40,7 @@ const Update = () => {
                 <input defaultValue={loaderData.name} className="border-2 border-white" type="text" name="name" id="" /><br />
                 <input defaultValue={loaderData.email} className="border-2 border-white" type="text" name="email" id="" /><br />
                 <input className="btn" type="submit" value="Update User" />
+                
             </form>
         </div>
       </div>
